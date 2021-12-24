@@ -22,8 +22,6 @@ class _QuestionsAppState extends State<QuestionsApp> {
         _pontuacaoTotal += pontuacao;
       });
     }
-
-    print(_pontuacaoTotal);
   }
 
   bool get temPerguntaSelecionada {
@@ -71,17 +69,19 @@ class _QuestionsAppState extends State<QuestionsApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Perguntas'),
-            centerTitle: true,
-            backgroundColor: const Color.fromARGB(255, 245, 172, 114),
-          ),
-          body: temPerguntaSelecionada
-              ? Questionario(
-                  perguntas: _perguntas,
-                  perguntaSelecionada: _perguntaSelecionada,
-                  responder: responder)
-              : FinishScreen(_pontuacaoTotal, restart)),
+        appBar: AppBar(
+          title: const Text('Perguntas'),
+          centerTitle: true,
+          backgroundColor: const Color.fromARGB(255, 196, 40, 71),
+        ),
+        body: temPerguntaSelecionada
+            ? Questionario(
+                perguntas: _perguntas,
+                perguntaSelecionada: _perguntaSelecionada,
+                responder: responder)
+            : FinishScreen(_pontuacaoTotal, restart),
+        backgroundColor: Color.fromARGB(255, 251, 245, 243),
+      ),
     );
   }
 }
