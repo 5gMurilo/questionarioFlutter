@@ -9,3 +9,6 @@ Nessa versão foram atualizados:
 - Cores dos componentes 
 - Alteração no Widget de finalização do questionário
 
+## Versão 1.0.2 
+
+Nessa versão as imagens agora são carregadas de forma local
