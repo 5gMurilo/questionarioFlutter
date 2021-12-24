@@ -19,8 +19,8 @@ class FinishScreen extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
         ),
-        Image.network(
-          'https://pm1.narvii.com/6675/4da277ecb9f18e538bff8f77a230711b73a1b52c_hq.jpg',
+        Image.asset(
+          'assets/images/patrick.jpg',
           width: 300,
           height: 200,
         ),
