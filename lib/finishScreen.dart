@@ -24,12 +24,15 @@ class FinishScreen extends StatelessWidget {
           width: 300,
           height: 200,
         ),
-        ElevatedButton(
+        TextButton(
           onPressed: restart,
-          child: const Text('Reiniciar'),
+          child: const Text(
+            'Deseja reiniciar?',
+            style: TextStyle(fontSize: 18),
+          ),
           style: ElevatedButton.styleFrom(
-            primary: Color.fromARGB(255, 248, 189, 127),
-            elevation: 10,
+            primary: const Color.fromARGB(255, 251, 245, 243),
+            onPrimary: Color.fromARGB(255, 222, 60, 75),
           ),
         )
       ],

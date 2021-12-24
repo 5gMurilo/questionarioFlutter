@@ -16,7 +16,7 @@ class Resposta extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             alignment: Alignment.center,
             elevation: 5,
-            primary: const Color.fromARGB(255, 248, 189, 127),
+            primary: const Color.fromARGB(255, 222, 60, 75),
           )),
     );
   }
