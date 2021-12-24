@@ -34,10 +34,10 @@ class _QuestionsAppState extends State<QuestionsApp> {
     {
       'pergunta': 'Qual a sua idade?',
       'respostas': [
-        {'texto': '17', 'pontuacao': 10},
-        {'texto': '18', 'pontuacao': 8},
-        {'texto': '19', 'pontuacao': 5},
-        {'texto': '20', 'pontuacao': 3},
+        {'texto': '20', 'pontuacao': 10},
+        {'texto': '19', 'pontuacao': 8},
+        {'texto': '18', 'pontuacao': 5},
+        {'texto': '17', 'pontuacao': 3},
       ]
     },
     {
@@ -50,12 +50,12 @@ class _QuestionsAppState extends State<QuestionsApp> {
       ]
     },
     {
-      'pergunta': 'Qual seu site favorito?',
+      'pergunta': 'Qual seu filme favorito?',
       'respostas': [
-        {'texto': 'tubo vermelho', 'pontuacao': 10},
-        {'texto': 'youtube', 'pontuacao': 8},
-        {'texto': 'sites do messi', 'pontuacao': 5},
-        {'texto': 'os da deep web', 'pontuacao': 3},
+        {'texto': 'Harry Potter', 'pontuacao': 10},
+        {'texto': 'Homem Aranha', 'pontuacao': 8},
+        {'texto': 'Vingadores', 'pontuacao': 5},
+        {'texto': 'Velozes e furiosos', 'pontuacao': 3},
       ]
     }
   ];
